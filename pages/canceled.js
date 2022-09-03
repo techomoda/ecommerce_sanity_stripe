@@ -5,7 +5,7 @@ import {BsBagCheckFill} from 'react-icons/bs';
 import { useStateContext } from '../context/StateContext';
 
 
-const Success = () => {
+const Canceled = () => {
     const {setCartItems, setTotalPrice, setTotalQuantities} = useStateContext ();
 
     useEffect(() =>{
@@ -34,4 +34,4 @@ const Success = () => {
   )
 }
 
-export default Success
+export default Canceled;
